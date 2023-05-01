@@ -1,0 +1,16 @@
+
+const form = document.querySelector('form');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  
+  const input1 = document.querySelector('#input1').value;
+  const input2 = document.querySelector('#input2').value;
+
+ 
+  console.log(`Input 1: ${input1}, Input 2: ${input2}`);
+
+  
+});
+ 
